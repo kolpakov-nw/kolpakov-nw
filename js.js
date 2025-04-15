@@ -1,11 +1,11 @@
-// Добавляем символ в поле вводаco
+
 function appendToDisplay(value) {
     const display = document.getElementById('display');
     display.value += value;
    
 }
 
-// Выполняем вычисление выражения
+
 function calculate() {
     const display = document.getElementById('display');
     try {
@@ -15,7 +15,7 @@ function calculate() {
     }
 }
 
-// Очищаем поле ввода
+
 function clearDisplay() {
     const display = document.getElementById('display');
     display.value = '';
@@ -40,4 +40,3 @@ function handleKeyboardInput(event) {
 }
 
 
-// Добавляем обработчик события нажатия клавиши
